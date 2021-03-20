@@ -70,5 +70,3 @@ export function seedDatabase(firebase) {
     }
   }
   
-
-  console.log("run")

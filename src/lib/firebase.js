@@ -1,5 +1,5 @@
 
-import {seedDatabase} from '../seed'
+// import {seedDatabase} from '../seed'
 
 const config = {
         apiKey: "AIzaSyCE1_PI2Nd-mdHfTpvFSk3_Ym7aTYZEcIM",
@@ -19,8 +19,8 @@ const {FieldValue} = window.firebase.firestore;
 
 
 
-seedDatabase(firebase)
-console.log("running")
+//seedDatabase(firebase)
+
 
 
 export {firebase,FieldValue}
