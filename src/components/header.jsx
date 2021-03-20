@@ -13,7 +13,7 @@ export default function Header(){
    
 
     return (
-        <header className="h-16 bg-white border-b mb-8">
+        <header className="h-30 bg-white border-b mb-8">
         <div className="container mx-auto max-width-lg h-full">
             <div className="flex justify-between h-full">
                 <div className="text-gray-700 text-center flex items-center align-items cursor-pointer">
@@ -23,7 +23,7 @@ export default function Header(){
                         </Link>
                     </h1>
                 </div>
-                <div class="text-gray text-center flex items-center align-items">
+                <div className="text-gray text-center flex items-center align-items">
                     { user ? (
                         <>
                             <Link to={ROUTES.DASHBOARD} arial-label="Home">
