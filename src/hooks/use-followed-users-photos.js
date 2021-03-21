@@ -22,7 +22,7 @@ export default function useFollowedUsersPhotos(){
                 
                const  followedUserPhotos = await getUserFollowedPhotos(userId,followingUserIds[0].following)
 
-              console.log(followedUserPhotos)
+             
 
                 followedUserPhotos.sort((a, b) => b.dateCreated - a.dateCreated);
                 setPhotos(followedUserPhotos);
