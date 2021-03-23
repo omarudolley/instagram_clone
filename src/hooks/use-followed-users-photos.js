@@ -12,7 +12,7 @@ export default function useFollowedUsersPhotos(){
         user: { uid: userId = '' }
     } = useContext(UserContext);
 
-
+    // const userId = 2
     useEffect(() => {
         async function getTimelinePhotos() {
             const followingUserIds = await getUserByUserId(userId);
